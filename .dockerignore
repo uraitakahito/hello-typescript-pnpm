@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# Allow only files needed for Docker build
+!package.json
+!pnpm-lock.yaml
+!tsconfig.json
+!src/
+!docker-entrypoint.sh
